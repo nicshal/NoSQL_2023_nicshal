@@ -53,8 +53,8 @@ nicshal-ubuntu :)
 
 ```
 
-Далее закачал тестовые dataset'ы с https://recipenlg.cs.put.poznan.pl/dataset (набор данных кулинарных рецептов)
-Распаковал архив в /home/nicshal/dataset/full_dataset.csv
+> - Далее закачал тестовые dataset'ы с https://recipenlg.cs.put.poznan.pl/dataset (набор данных кулинарных рецептов)
+> - Распаковал архив в /home/nicshal/dataset/full_dataset.csv
 
 ## Описание процесса заливки данных в базу
 ```sh
