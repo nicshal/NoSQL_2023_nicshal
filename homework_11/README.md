@@ -134,11 +134,11 @@ create table person_movie_link
 select d.person_name
 from person a 
 inner join person_movie_link b on b.person_id = a.person_id 
-inner join person_movie_link c on c.movie = b.movie
+inner join person_movie_link c on c.movie_id = b.movie_id
 inner join person d.person_id = c.person_id
 where a.person_name = 'Tom Hanks'
   and b.link_role = 'ACTED_IN'
-  and d.link_role = 'ACTED_IN'
+  and c.link_role = 'ACTED_IN'
   and d.person_name <> 'Tom Hanks'
            
 ```
